@@ -1,117 +1,102 @@
-⚖️ PrimeLegal - Legal Consultation Platform
-Welcome to PrimeLegal, a comprehensive, secure, and intuitive web application designed to bridge the gap between legal professionals and clients seeking legal advice.
+<div align="center">
+  
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" width="60" height="60" alt="React" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Spring-Light.svg" width="60" height="60" alt="Spring Boot" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MySQL-Light.svg" width="60" height="60" alt="MySQL" />
 
-This repository contains the complete source code for both the Spring Boot Backend and the React + Vite Frontend.
+  <h1 align="center">⚖️ PrimeLegal</h1>
 
-🌟 Project Overview
-PrimeLegal modernizes the legal consultation process. It replaces fragmented emails and phone calls with a centralized portal where clients can find specialized attorneys, book appointments, securely exchange messages, and manage legal documents. The platform features a strict Role-Based Access Control (RBAC) system, ensuring customized and secure experiences for Clients, Lawyers, and Administrators.
+  <p align="center">
+    <strong>A Next-Generation Legal Consultation & Practice Management Platform</strong>
+  </p>
 
-✨ Key Features
-👤 For Clients (Users)
-Lawyer Directory: Search and filter attorneys by specialization, minimum rating, and maximum hourly fee.
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-18.0-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/Spring_Boot-3.2.0-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  </p>
+</div>
 
-Appointment Booking: Schedule consultations picking available dates, times, and providing case notes.
+---
 
-Secure Messaging: Real-time chat interface to communicate directly with connected lawyers.
+## 📖 Executive Overview
 
-Document Management: Upload and store case-related files securely.
+**PrimeLegal** is a comprehensive, secure, and intuitive web application designed to bridge the gap between legal professionals and clients seeking expert legal advice. 
 
-Account Settings: Manage profile details, notifications, and preferred consultation modes (Video, Phone, In-Person).
+By replacing fragmented email chains and phone calls with a centralized portal, PrimeLegal empowers clients to find specialized attorneys, book appointments, securely exchange messages, and manage legal documents. The platform features a strict **Role-Based Access Control (RBAC)** system, ensuring customized and secure experiences for Clients, Lawyers, and Administrators.
 
-💼 For Lawyers
-Practice Dashboard: View upcoming consultations, pending requests, and unread messages at a glance.
+---
 
-Schedule Management: Accept, reject, or mark appointments as completed with one click.
+## ✨ Core Features
 
-Client Directory: Access a consolidated list of active clients and case purposes.
+### 👤 For Clients
+*   🔍 **Advanced Lawyer Directory:** Search and filter attorneys by specialization, minimum rating, and maximum hourly fee.
+*   📅 **Seamless Appointment Booking:** Schedule consultations by picking available dates, times, and providing preliminary case notes.
+*   💬 **Secure Messaging:** Real-time chat interface to communicate directly with connected lawyers.
+*   📁 **Document Management:** Upload, organize, and store case-related files securely.
+*   ⚙️ **Customizable Account Settings:** Manage profile details, notifications, and preferred consultation modes (Video, Phone, In-Person).
 
-Practice Settings: Dynamically update hourly rates, specializations, and automated notification preferences.
+### 💼 For Lawyers
+*   📊 **Practice Dashboard:** View upcoming consultations, pending requests, and unread messages at a single glance.
+*   🗓️ **Schedule Management:** Accept, reject, or mark appointments as completed with one click.
+*   👥 **Client Directory:** Access a consolidated list of active clients and case purposes.
+*   🛠️ **Dynamic Practice Settings:** Instantly update hourly rates, specializations, and automated notification preferences.
 
-🛡️ For Administrators
-System Controls: Configure platform-wide rules, commission rates, and maintenance modes.
+### 🛡️ For Administrators
+*   🎛️ **System Controls:** Configure platform-wide rules, commission rates, and maintenance modes.
+*   👥 **User Management:** Suspend, activate, or permanently remove user and lawyer accounts.
+*   ✅ **Lawyer Onboarding:** Manually add and verify attorneys to the platform directory.
 
-User Management: Suspend, activate, or remove user and lawyer accounts.
+### 🎨 Platform-Wide Enhancements
+*   🌗 **Dynamic Theme:** Seamless Dark/Light mode toggle that remembers user preferences.
+*   📱 **Responsive Design:** Fully mobile-optimized interface ensuring accessibility on any device.
+*   🔔 **Real-Time Notifications:** Instant polling-based alerts for status changes and new messages.
 
-Lawyer Onboarding: Manually add verified attorneys to the platform directory.
+---
 
-🎨 Global Features
-Dynamic Theme: Seamless Dark/Light mode toggle that remembers user preferences via local storage.
+## 🛠️ Technology Stack
 
-Responsive Design: Fully mobile-optimized interface using Tailwind CSS.
+<table align="center">
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>Infrastructure & Ops</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br>
+      <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" /><br>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" /><br>
+      <img src="https://img.shields.io/badge/Aiven-FF3B30?style=for-the-badge&logo=aiven&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
-Real-time Notifications: Polling-based notification system to alert users of status changes and new messages.
+---
 
-🛠️ Technology Stack
-Frontend (Client-Side)
-Framework: React 18 with Vite for blazing-fast builds.
+## 🚀 Getting Started (Local Development)
 
-Styling: Tailwind CSS (with native Dark Mode support).
-
-Routing: React Router v6 for Single Page Application (SPA) navigation.
-
-State Management: React Context API (AuthContext, ThemeContext).
-
-HTTP Client: Axios for API requests.
-
-Backend (Server-Side)
-Framework: Java 21 & Spring Boot 3.2.0.
-
-Data Access: Spring Data JPA & Hibernate.
-
-Security: Spring Security & Custom CORS Configuration.
-
-Database: MySQL (Cloud-hosted via Aiven).
-
-Build Tool: Maven.
-
-Deployment Architecture
-Frontend Hosting: Netlify (with custom _redirects for SPA routing).
-
-Backend Hosting: Render (Containerized via Docker, utilizing Debian/Ubuntu base images for network stability).
-
-🚀 Getting Started (Local Development)
 To run PrimeLegal on your local machine, follow these steps:
 
-Prerequisites
-Node.js (v18+)
+### Prerequisites
+*   Node.js (v18+)
+*   Java Development Kit (JDK 21)
+*   MySQL Server (Local or Cloud)
 
-Java Development Kit (JDK 21)
-
-MySQL Server (Local or Cloud)
-
-1. Database Setup
+### 1. Database Setup
 Create a new MySQL database for the project:
-
-SQL
+```sql
 CREATE DATABASE primelegal_db;
-2. Backend Setup
-Navigate to the backend directory and configure your environment variables. You can set these in your IDE or add them directly to src/main/resources/application.properties for local testing:
-
-Properties
-# Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/primelegal_db
-spring.datasource.username=your_mysql_username
-spring.datasource.password=your_mysql_password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-# Hibernate Configuration
-spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
-spring.jpa.hibernate.ddl-auto=update
-
-# Server Port
-server.port=8080
-Run the application using Maven:
-
-Bash
-./mvnw spring-boot:run
-3. Frontend Setup
-Navigate to the frontend directory (frontend/). Create a .env file in the root of the frontend folder:  
-
-Code snippet
-VITE_API_URL=http://localhost:8080/api
-Install dependencies and start the development server:  
-
-Bash
-npm install
-npm run dev
-Access the application at http://localhost:5173.

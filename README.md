@@ -86,17 +86,3 @@ By replacing fragmented email chains and phone calls with a centralized portal, 
 </table>
 
 ---
-
-## 🚀 Getting Started (Local Development)
-
-To run PrimeLegal on your local machine, follow these steps:
-
-### Prerequisites
-*   Node.js (v18+)
-*   Java Development Kit (JDK 21)
-*   MySQL Server (Local or Cloud)
-
-### 1. Database Setup
-Create a new MySQL database for the project:
-```sql
-CREATE DATABASE primelegal_db;

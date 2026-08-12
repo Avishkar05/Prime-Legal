@@ -21,6 +21,8 @@
 ---
 
 ## 📖 Executive Overview
+Click here to visit website  : https://prime-legal.netlify.app/
+Note : Wait for 1-2 minute to load the website
 
 **PrimeLegal** is a comprehensive, secure, and intuitive web application designed to bridge the gap between legal professionals and clients seeking expert legal advice. 
 
